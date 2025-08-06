@@ -1,0 +1,12 @@
+template/index.liqud
+{% comment %}
+  Homepage template for The Daily Makeover
+{% endcomment %}
+
+<div class="page-width">
+  <h1>Welcome to {{ shop.name }}</h1>
+  <p>Your beautiful spa website is ready for customization!</p>
+  
+  <!-- This is where your spa sections will go -->
+  {{ content_for_index }}
+</div>
